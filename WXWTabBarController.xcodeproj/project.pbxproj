@@ -15,6 +15,19 @@
 		846FA32C213FBA68001B2654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA32B213FBA68001B2654 /* main.m */; };
 		846FA336213FBA68001B2654 /* WXWTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA335213FBA68001B2654 /* WXWTabBarControllerTests.m */; };
 		846FA341213FBA68001B2654 /* WXWTabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA340213FBA68001B2654 /* WXWTabBarControllerUITests.m */; };
+		846FA35F213FBB0A001B2654 /* WXWFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA352213FBB0A001B2654 /* WXWFourthViewController.m */; };
+		846FA360213FBB0A001B2654 /* WXWThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA355213FBB0A001B2654 /* WXWThirdViewController.m */; };
+		846FA361213FBB0A001B2654 /* WXWFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA358213FBB0A001B2654 /* WXWFirstViewController.m */; };
+		846FA362213FBB0A001B2654 /* WXWSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA35B213FBB0A001B2654 /* WXWSecondViewController.m */; };
+		846FA363213FBB0A001B2654 /* WXWMidddleSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA35D213FBB0A001B2654 /* WXWMidddleSubClass.m */; };
+		846FA374213FBB16001B2654 /* UIView+WXWTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA368213FBB16001B2654 /* UIView+WXWTabBarControllerExtention.m */; };
+		846FA375213FBB16001B2654 /* UITabBarItem+WXWTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA369213FBB16001B2654 /* UITabBarItem+WXWTabBarControllerExtention.m */; };
+		846FA376213FBB16001B2654 /* WXWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA36B213FBB16001B2654 /* WXWTabBar.m */; };
+		846FA377213FBB16001B2654 /* WXWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA36D213FBB16001B2654 /* WXWTabBarController.m */; };
+		846FA378213FBB16001B2654 /* UIViewController+WXWTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA36E213FBB16001B2654 /* UIViewController+WXWTabBarControllerExtention.m */; };
+		846FA37A213FBB16001B2654 /* UIControl+WXWTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA373213FBB16001B2654 /* UIControl+WXWTabBarControllerExtention.m */; };
+		846FA37D213FBB23001B2654 /* WXWTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA37C213FBB23001B2654 /* WXWTabBarControllerConfig.m */; };
+		846FA380213FC8FA001B2654 /* WXWPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA37F213FC8FA001B2654 /* WXWPlusButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,33 @@
 		846FA33C213FBA68001B2654 /* WXWTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXWTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846FA340213FBA68001B2654 /* WXWTabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXWTabBarControllerUITests.m; sourceTree = "<group>"; };
 		846FA342213FBA68001B2654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846FA351213FBB0A001B2654 /* WXWFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWFourthViewController.h; sourceTree = "<group>"; };
+		846FA352213FBB0A001B2654 /* WXWFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXWFourthViewController.m; sourceTree = "<group>"; };
+		846FA354213FBB0A001B2654 /* WXWThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWThirdViewController.h; sourceTree = "<group>"; };
+		846FA355213FBB0A001B2654 /* WXWThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXWThirdViewController.m; sourceTree = "<group>"; };
+		846FA357213FBB0A001B2654 /* WXWFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWFirstViewController.h; sourceTree = "<group>"; };
+		846FA358213FBB0A001B2654 /* WXWFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXWFirstViewController.m; sourceTree = "<group>"; };
+		846FA35A213FBB0A001B2654 /* WXWSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWSecondViewController.h; sourceTree = "<group>"; };
+		846FA35B213FBB0A001B2654 /* WXWSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXWSecondViewController.m; sourceTree = "<group>"; };
+		846FA35D213FBB0A001B2654 /* WXWMidddleSubClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXWMidddleSubClass.m; sourceTree = "<group>"; };
+		846FA35E213FBB0A001B2654 /* WXWMidddleSubClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWMidddleSubClass.h; sourceTree = "<group>"; };
+		846FA365213FBB16001B2654 /* WXWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWTabBarController.h; sourceTree = "<group>"; };
+		846FA366213FBB16001B2654 /* UIViewController+WXWTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXWTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		846FA367213FBB16001B2654 /* UIControl+WXWTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+WXWTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		846FA368213FBB16001B2654 /* UIView+WXWTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WXWTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		846FA369213FBB16001B2654 /* UITabBarItem+WXWTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+WXWTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		846FA36B213FBB16001B2654 /* WXWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXWTabBar.m; sourceTree = "<group>"; };
+		846FA36C213FBB16001B2654 /* WXWConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWConstants.h; sourceTree = "<group>"; };
+		846FA36D213FBB16001B2654 /* WXWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXWTabBarController.m; sourceTree = "<group>"; };
+		846FA36E213FBB16001B2654 /* UIViewController+WXWTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WXWTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		846FA36F213FBB16001B2654 /* WXWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWTabBar.h; sourceTree = "<group>"; };
+		846FA371213FBB16001B2654 /* UITabBarItem+WXWTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+WXWTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		846FA372213FBB16001B2654 /* UIView+WXWTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WXWTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		846FA373213FBB16001B2654 /* UIControl+WXWTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+WXWTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		846FA37B213FBB23001B2654 /* WXWTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWTabBarControllerConfig.h; sourceTree = "<group>"; };
+		846FA37C213FBB23001B2654 /* WXWTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXWTabBarControllerConfig.m; sourceTree = "<group>"; };
+		846FA37E213FC8FA001B2654 /* WXWPlusButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXWPlusButton.h; sourceTree = "<group>"; };
+		846FA37F213FC8FA001B2654 /* WXWPlusButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXWPlusButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +141,14 @@
 		846FA31B213FBA65001B2654 /* WXWTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				846FA364213FBB16001B2654 /* WXWTabBarController */,
+				846FA34E213FBB0A001B2654 /* Classes */,
 				846FA31C213FBA65001B2654 /* AppDelegate.h */,
 				846FA31D213FBA65001B2654 /* AppDelegate.m */,
 				846FA31F213FBA65001B2654 /* ViewController.h */,
 				846FA320213FBA65001B2654 /* ViewController.m */,
+				846FA37B213FBB23001B2654 /* WXWTabBarControllerConfig.h */,
+				846FA37C213FBB23001B2654 /* WXWTabBarControllerConfig.m */,
 				846FA322213FBA65001B2654 /* Main.storyboard */,
 				846FA325213FBA68001B2654 /* Assets.xcassets */,
 				846FA327213FBA68001B2654 /* LaunchScreen.storyboard */,
@@ -130,6 +174,93 @@
 				846FA342213FBA68001B2654 /* Info.plist */,
 			);
 			path = WXWTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		846FA34E213FBB0A001B2654 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				846FA34F213FBB0A001B2654 /* Module */,
+				846FA35C213FBB0A001B2654 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		846FA34F213FBB0A001B2654 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				846FA356213FBB0A001B2654 /* FirstViewController */,
+				846FA359213FBB0A001B2654 /* SecondViewController */,
+				846FA353213FBB0A001B2654 /* ThirdViewController */,
+				846FA350213FBB0A001B2654 /* FourthViewController */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		846FA350213FBB0A001B2654 /* FourthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				846FA351213FBB0A001B2654 /* WXWFourthViewController.h */,
+				846FA352213FBB0A001B2654 /* WXWFourthViewController.m */,
+			);
+			path = FourthViewController;
+			sourceTree = "<group>";
+		};
+		846FA353213FBB0A001B2654 /* ThirdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				846FA354213FBB0A001B2654 /* WXWThirdViewController.h */,
+				846FA355213FBB0A001B2654 /* WXWThirdViewController.m */,
+			);
+			path = ThirdViewController;
+			sourceTree = "<group>";
+		};
+		846FA356213FBB0A001B2654 /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				846FA357213FBB0A001B2654 /* WXWFirstViewController.h */,
+				846FA358213FBB0A001B2654 /* WXWFirstViewController.m */,
+			);
+			path = FirstViewController;
+			sourceTree = "<group>";
+		};
+		846FA359213FBB0A001B2654 /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				846FA35A213FBB0A001B2654 /* WXWSecondViewController.h */,
+				846FA35B213FBB0A001B2654 /* WXWSecondViewController.m */,
+			);
+			path = SecondViewController;
+			sourceTree = "<group>";
+		};
+		846FA35C213FBB0A001B2654 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				846FA35E213FBB0A001B2654 /* WXWMidddleSubClass.h */,
+				846FA35D213FBB0A001B2654 /* WXWMidddleSubClass.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		846FA364213FBB16001B2654 /* WXWTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				846FA365213FBB16001B2654 /* WXWTabBarController.h */,
+				846FA36D213FBB16001B2654 /* WXWTabBarController.m */,
+				846FA36F213FBB16001B2654 /* WXWTabBar.h */,
+				846FA36B213FBB16001B2654 /* WXWTabBar.m */,
+				846FA37E213FC8FA001B2654 /* WXWPlusButton.h */,
+				846FA37F213FC8FA001B2654 /* WXWPlusButton.m */,
+				846FA366213FBB16001B2654 /* UIViewController+WXWTabBarControllerExtention.h */,
+				846FA36E213FBB16001B2654 /* UIViewController+WXWTabBarControllerExtention.m */,
+				846FA372213FBB16001B2654 /* UIView+WXWTabBarControllerExtention.h */,
+				846FA368213FBB16001B2654 /* UIView+WXWTabBarControllerExtention.m */,
+				846FA371213FBB16001B2654 /* UITabBarItem+WXWTabBarControllerExtention.h */,
+				846FA369213FBB16001B2654 /* UITabBarItem+WXWTabBarControllerExtention.m */,
+				846FA367213FBB16001B2654 /* UIControl+WXWTabBarControllerExtention.h */,
+				846FA373213FBB16001B2654 /* UIControl+WXWTabBarControllerExtention.m */,
+				846FA36C213FBB16001B2654 /* WXWConstants.h */,
+			);
+			path = WXWTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +393,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846FA363213FBB0A001B2654 /* WXWMidddleSubClass.m in Sources */,
 				846FA321213FBA65001B2654 /* ViewController.m in Sources */,
+				846FA37D213FBB23001B2654 /* WXWTabBarControllerConfig.m in Sources */,
+				846FA376213FBB16001B2654 /* WXWTabBar.m in Sources */,
+				846FA37A213FBB16001B2654 /* UIControl+WXWTabBarControllerExtention.m in Sources */,
+				846FA35F213FBB0A001B2654 /* WXWFourthViewController.m in Sources */,
+				846FA360213FBB0A001B2654 /* WXWThirdViewController.m in Sources */,
+				846FA374213FBB16001B2654 /* UIView+WXWTabBarControllerExtention.m in Sources */,
 				846FA32C213FBA68001B2654 /* main.m in Sources */,
+				846FA375213FBB16001B2654 /* UITabBarItem+WXWTabBarControllerExtention.m in Sources */,
+				846FA362213FBB0A001B2654 /* WXWSecondViewController.m in Sources */,
+				846FA361213FBB0A001B2654 /* WXWFirstViewController.m in Sources */,
+				846FA377213FBB16001B2654 /* WXWTabBarController.m in Sources */,
+				846FA380213FC8FA001B2654 /* WXWPlusButton.m in Sources */,
 				846FA31E213FBA65001B2654 /* AppDelegate.m in Sources */,
+				846FA378213FBB16001B2654 /* UIViewController+WXWTabBarControllerExtention.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,8 +578,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q7AEAPEXBN;
+				DEVELOPMENT_TEAM = K5SRAMP7C3;
 				INFOPLIST_FILE = WXWTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,8 +596,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q7AEAPEXBN;
+				DEVELOPMENT_TEAM = K5SRAMP7C3;
 				INFOPLIST_FILE = WXWTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
