@@ -28,6 +28,7 @@
 		846FA37A213FBB16001B2654 /* UIControl+WXWTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA373213FBB16001B2654 /* UIControl+WXWTabBarControllerExtention.m */; };
 		846FA37D213FBB23001B2654 /* WXWTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA37C213FBB23001B2654 /* WXWTabBarControllerConfig.m */; };
 		846FA380213FC8FA001B2654 /* WXWPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FA37F213FC8FA001B2654 /* WXWPlusButton.m */; };
+		84BED0562150CDCF0091C673 /* WXWTabBar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84BED0552150CDCF0091C673 /* WXWTabBar.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		846FA37C213FBB23001B2654 /* WXWTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXWTabBarControllerConfig.m; sourceTree = "<group>"; };
 		846FA37E213FC8FA001B2654 /* WXWPlusButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXWPlusButton.h; sourceTree = "<group>"; };
 		846FA37F213FC8FA001B2654 /* WXWPlusButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXWPlusButton.m; sourceTree = "<group>"; };
+		84BED0552150CDCF0091C673 /* WXWTabBar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = WXWTabBar.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 		846FA34E213FBB0A001B2654 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				84BED0542150CDCF0091C673 /* Resourece */,
 				846FA34F213FBB0A001B2654 /* Module */,
 				846FA35C213FBB0A001B2654 /* View */,
 			);
@@ -261,6 +264,14 @@
 				846FA36C213FBB16001B2654 /* WXWConstants.h */,
 			);
 			path = WXWTabBarController;
+			sourceTree = "<group>";
+		};
+		84BED0542150CDCF0091C673 /* Resourece */ = {
+			isa = PBXGroup;
+			children = (
+				84BED0552150CDCF0091C673 /* WXWTabBar.gif */,
+			);
+			path = Resourece;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +380,7 @@
 				846FA329213FBA68001B2654 /* LaunchScreen.storyboard in Resources */,
 				846FA326213FBA68001B2654 /* Assets.xcassets in Resources */,
 				846FA324213FBA65001B2654 /* Main.storyboard in Resources */,
+				84BED0562150CDCF0091C673 /* WXWTabBar.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
